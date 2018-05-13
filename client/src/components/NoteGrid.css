@@ -1,0 +1,24 @@
+.NoteGrid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float:none;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+}
+
+.NoteGrid-card {
+    display:inline-block;
+    width: 24.2%;
+    margin: 4px 0.4%;
+    padding: 8px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    box-shadow: 2px 2px 2px rgba(148, 146, 146, 0.788);
+    transition: transform 0.15s;
+    cursor: pointer;
+}
+
+.NoteGrid-card:hover {
+    transform: scale(1.02)
+}

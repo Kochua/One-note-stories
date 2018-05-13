@@ -1,0 +1,1 @@
+export const FETCH_NOTES = 'fetch_notes';

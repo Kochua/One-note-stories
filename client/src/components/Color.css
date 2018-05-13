@@ -1,0 +1,15 @@
+.ColorPicker_items {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 3px;
+    cursor: pointer;
+}
+.ColorPicker_items:hover,
+.ColorPicker_items:active {
+        border: 2px solid grey;
+    }
+
+.ColorPicker_items.selected {
+    border: 2px solid grey;
+}
